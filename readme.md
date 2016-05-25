@@ -7,4 +7,7 @@ To run the included tests you will need to have [Composer](http://www.composer.o
 `composer install` and then `phpunit tests`
 
 ### Running the program
-Simply run
+Simply run `php calculate.php`
+
+You can optionally include a filename as a parameter, it must end in .csv.
+`php calculate.php alternate-name.csv`
